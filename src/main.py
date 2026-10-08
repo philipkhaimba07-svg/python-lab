@@ -1,4 +1,7 @@
-from utils import square, is_even, celsius_to_fahrenheit
+from utils import square, is_even, celsius_to_fahrenheit, greet
+
+name = input("What is your name? ")
+print(greet(name))
 
 n = float(input("Enter a number: "))
 print(f"Square: {square(n)}")
